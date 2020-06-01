@@ -15,6 +15,7 @@
 		E092C1902484654300766AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E092C18E2484654300766AB6 /* LaunchScreen.storyboard */; };
 		E092C19B2484654300766AB6 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092C19A2484654300766AB6 /* HelloWorldTests.swift */; };
 		E092C1A62484654300766AB6 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092C1A52484654300766AB6 /* HelloWorldUITests.swift */; };
+		E096ADC2248531CF0078C33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E096ADC1248531CF0078C33F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E092C1A12484654300766AB6 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E092C1A52484654300766AB6 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		E092C1A72484654300766AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E096ADC1248531CF0078C33F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,13 @@
 		E092C1822484654200766AB6 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				E092C1912484654300766AB6 /* Info.plist */,
+				E096ADC1248531CF0078C33F /* Main.storyboard */,
 				E092C1832484654200766AB6 /* AppDelegate.swift */,
-				E092C1852484654200766AB6 /* SceneDelegate.swift */,
 				E092C1872484654200766AB6 /* ContentView.swift */,
+				E092C1852484654200766AB6 /* SceneDelegate.swift */,
 				E092C1892484654300766AB6 /* Assets.xcassets */,
 				E092C18E2484654300766AB6 /* LaunchScreen.storyboard */,
-				E092C1912484654300766AB6 /* Info.plist */,
 				E092C18B2484654300766AB6 /* Preview Content */,
 			);
 			path = HelloWorld;
@@ -243,6 +246,7 @@
 				E092C1902484654300766AB6 /* LaunchScreen.storyboard in Resources */,
 				E092C18D2484654300766AB6 /* Preview Assets.xcassets in Resources */,
 				E092C18A2484654300766AB6 /* Assets.xcassets in Resources */,
+				E096ADC2248531CF0078C33F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
